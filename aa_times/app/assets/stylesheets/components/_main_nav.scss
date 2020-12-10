@@ -1,10 +1,15 @@
 .main-nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  font-family: $sans-serif;
+  font-size: 16px;
+
 }
 
 .left-nav > ul,
 .right-nav > ul {
+  // justify-content: space-between;
+
 }
 
 .left-nav {
@@ -20,9 +25,15 @@
 .right-nav {
   > ul {
     > li {
+      background-color: $blue;
+      color: white;
+      margin: 2px;
+      padding: 2px;
+      border-radius: 2px;
     }
 
     > li:last-of-type {
+      background-color: white;
     }
   }
 
