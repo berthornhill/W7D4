@@ -15,6 +15,10 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	display: flex;
+	justify-content: center;
+
+
 
 	a {
 		margin: 0 5px;
@@ -71,4 +75,7 @@
 	strong {
 		color: green;
 	}
+}
+img {
+	width: 90%;
 }
