@@ -27,12 +27,14 @@
 
 .gear-dropdown .editions li {
   display: block;
+  display: flex;
   padding: 0px 0px 3px 5px;
   width: 100%;
 }
 
 .gear-dropdown .help li {
   display: block;
+  display: flex;
   padding: 0px 0px 3px 5px;
   width: 100px;
 }
@@ -42,6 +44,7 @@
   font-size: 12px;
   padding: 0px 0px 3px 5px;
   border-top: solid $light-gray 1px;
+  display: flex;
 }
 
 .gear-dropdown a {
