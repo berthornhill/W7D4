@@ -1,7 +1,23 @@
+// #sections-sidebar-btn {
+//   position: relative;
+//   display: block;
+// }
+
+// #sections-sidebar-btn:hover {
+//   display: block;
+//   position: absolute;
+//   cursor: pointer;
+//   opacity: 1;
+//   z-index: 1;
+//   top: 27px;
+//   left: 52px;
+// }
 .sections-nav {
   opacity: 0;
   display: none;
+  position: relative;
 }
+
 .sections-nav .expand {
   opacity: 1;
 }
@@ -38,11 +54,11 @@
   z-index: 1;
 }
 
-@media only screen and (max-width: 1000px) {
-  .sections-nav:hover {
-    display: block;
-    position: relative;
-    cursor: pointer;
-    z-index: 1;
-  }
-}
+// @media only screen and (max-width: 1000px) {
+//   .sections-nav:hover ul {
+//     display: block;
+//     position: relative;
+//     cursor: pointer;
+//     z-index: 1;
+//   }
+// }
