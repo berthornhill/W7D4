@@ -1,0 +1,48 @@
+.sections-nav {
+  opacity: 0;
+  display: none;
+}
+.sections-nav .expand {
+  opacity: 1;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown > ul {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover > ul {
+  display: block;
+}
+
+.dropdown li {
+  position: relative;
+}
+.dropdown li:after,
+.dropdown li:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  border-left: 5px solid gray;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  width: 0;
+  height: 0;
+}
+.dropdown li:after {
+  right: 2px;
+  border-left: 5px solid white;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sections-nav:hover {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+  }
+}
